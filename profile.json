@@ -1,0 +1,84 @@
+{
+  "dataset_path": "C:\\code\\python\\machine-learning-2025\\data\\Cleaned_airbnb_barcelona.csv",
+  "target_column": "host_is_superhost",
+  "dropped_id_like_columns": [
+    "Unnamed: 0",
+    "id"
+  ],
+  "N (rows)": 19833,
+  "d (features)": 22,
+  "K (classes)": 2,
+  "missing_pct_overall": 1.124,
+  "missing_pct_features_only": 1.27,
+  "class_counts": {
+    "f": 16097,
+    "t": 3702,
+    "NaN": 34
+  },
+  "class_percents": {
+    "f": 81.16,
+    "t": 18.67,
+    "NaN": 0.17
+  },
+  "class_ratio_min_max": "0/81",
+  "outlier_rows_pct_IQR": 46.503,
+  "feature_type_counts": {
+    "numeric": 17,
+    "categorical": 3,
+    "text": 1,
+    "datetime": 0,
+    "boolean": 0,
+    "other": 1
+  },
+  "other_types": {
+    "other": 1
+  },
+  "flags": {
+    "Наличие пропущенных значений (да/нет)": "да",
+    "Разнородные признаки (да/нет)": "да",
+    "Несбалансированные классы (да/нет)": "да",
+    "Большое количество выбросов (да/нет)": "да",
+    "Наличие текстовых признаков (да/нет)": "да"
+  },
+  "params": {
+    "imbalance_threshold": 0.8,
+    "iqr_k": 1.5
+  },
+  "columns_by_type": {
+    "numeric": [
+      "host_id",
+      "host_listings_count",
+      "zipcode",
+      "latitude",
+      "longitude",
+      "accommodates",
+      "bathrooms",
+      "bedrooms",
+      "beds",
+      "price",
+      "minimum_nights",
+      "availability_30",
+      "availability_60",
+      "availability_90",
+      "availability_365",
+      "number_of_reviews_ltm",
+      "review_scores_rating"
+    ],
+    "categorical": [
+      "property_type",
+      "room_type",
+      "has_availability"
+    ],
+    "text": [
+      "amenities"
+    ],
+    "datetime": [],
+    "boolean": [],
+    "other": [
+      "neighbourhood"
+    ]
+  },
+  "other_columns": [
+    "neighbourhood"
+  ]
+}
